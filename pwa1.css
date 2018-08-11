@@ -1,0 +1,149 @@
+/*
+        header{
+
+            font-family: papyrus;
+            font-weight: bold;
+            font-size: 60px;
+            color:white;
+        }
+*/
+
+.home_form input[type="text"]{
+    text-align: center;
+    outline:none;
+    border:none;
+    color: green;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 2px solid white;
+ 
+}
+input[type="button"]{
+    background-color: dodgerblue;
+    color:white;
+    font-size: 20px;
+    padding:8px;
+    border-radius: 10px;
+    border:1px solid dodgerblue;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+}
+img{
+    width: auto;
+    height: auto;
+    height: 218.3px;
+    width: 308.6px;
+    max-height: 655px;
+    max-width: 926px;
+    border-radius: 16px;
+    cursor:pointer;
+}   
+.pwa_home img:hover{
+    width: 370.4px;;
+    height:262px ;
+    transition: 0.8s;
+    
+}
+.home_form{
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left:40%;
+    top:20%;
+}
+.pwa_home{
+       list-style: none;
+}
+.pwa_home li{
+    float: left;
+    color:white;
+    
+    padding:20px 40px;
+    font-size: 20px;
+}
+
+.ml_top{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color:white;
+    padding: 1px 20px;
+    text-align: center;
+    font-family:serif;
+    font-size: 25px;
+    animation-name:ml_top_anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ml_top_anim{
+    
+    0%{background-color: dodgerblue;}
+     25%{background-color: dimgrey;}
+     50%{background-color: tomato;}
+     75%{background-color: deeppink;}
+     100%{background-color: dodgerblue;}
+}
+
+.ml_ul li{
+    background-color: grey;
+    color: white;
+    width:300px;
+    height: auto;
+    float: left;
+    list-style: none;
+    margin-right:50px;
+    margin-bottom: 30px;
+    padding:30px 30px;
+    border-radius: 20px;
+}
+.ml_ul li img{
+    border: 3px solid red;
+    width: 300px;
+    background-color:cornsilk;
+    height: 200px;
+    max-width: 300px;
+    max-height: 280px;
+}
+.ml_form input{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    top:80%;
+    left:80%;
+}
+.ml_ul p{
+font-family:papyrus;font-weight: bold;font-size:18px; 
+}
+.ml_ul h2{
+    color:darkblue;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ml_form input:hover{
+ color:yellow;
+    border:4.5px solid deeppink;
+}
+.home_body{
+     background-image: url('devil.jpg');
+}
+.ml_body{
+     background-image: url('ml_bg.jpg');
+}
+.app_dev{
+    background-image: url(ml_bg.jpg);
+}
+.pyth_body{
+     background-image: url(ml_bg.jpg);
+}
